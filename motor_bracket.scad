@@ -17,4 +17,8 @@ translate([0,0,29])rotate([-90,0,0])
 cylinder(d=6,h=10);
 translate([18.5,-10,19])cube(20);
 translate([-38.5,-10,19])cube(20);
+translate([19,0,29])rotate([0,-90,0])
+cylinder(d=2.8,h=12);
+translate([-19,0,29])rotate([0,90,0])
+cylinder(d=2.8,h=12);
 }
